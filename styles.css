@@ -2,7 +2,29 @@ body{
 	display: flex;
 	flex-direction: column;
 }
-	.centrage
+	
+	ul {
+  list-style-type: none;
+}
+
+
+#connexion_bouton {
+	color: #fff;
+	border: 1px solid ;
+	border-color: rgb(66, 133, 244);
+	background-color: rgb(66, 133, 244);
+    font-weight: bold;
+    outline: none;
+    padding-top: 0px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    border-radius: 2px;
+    height: 30px;
+    width :94px;
+
+}
+.centrage
 {
   display: flex;
   flex-direction: column;
@@ -60,6 +82,7 @@ body{
     text-align: center
 }
 
+
 .searchbar {
 	    background-color: #fff;
     height: 44px;
@@ -76,9 +99,13 @@ body{
 
 
 ul.header_droit li{
-	display: inline;
+	
 	float: right;
 }
+.header_droit {
+	style="padding-top: 0px;margin-top: 0px;margin-bottom: 0px; margin-right: 0px;"
+}
+
 ul#footer_haut li{
 	display: inline;
 	margin-bottom: 0px;
@@ -94,6 +121,7 @@ ul#footer_bas li {
 
 #droite {
 	padding-right: 5px;	
+	float: right;
 }
 
 #footer {
@@ -113,8 +141,7 @@ ul#footer_bas li {
 
 #header {
 	display: flex;
-	flex-direction: row-reverse;
-	justify-content: flex-start;
+	justify-content: flex-end;
 	    color: rgba(0,0,0,0.87);
     line-height: 24px;
     font-family: arial, serif;
