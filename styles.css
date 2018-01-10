@@ -1,4 +1,4 @@
-.logo_google
+.centrage
 {
   display: flex;
 }
@@ -6,4 +6,9 @@
 {
   margin: auto;
   margin-top: 200px;
+}
+
+.centrage_searchbar
+{
+  margin-left: 740px;
 }
