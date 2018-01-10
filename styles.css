@@ -27,7 +27,27 @@
 	justify-content: space-between;
 }
 
+ul#header li{
+	display: inline;
+	}
+
+.header_droit{
+	;
+}
+ul#footer_haut li{
+	display: inline;
+}
 ul#footer_bas li {
 	display:inline;
 }
 
+
+.droite {
+	float: right;	
+}
+
+#footer {
+ bottom: 0;
+ position: absolute;
+}
+}
