@@ -1,14 +1,33 @@
 .centrage
 {
   display: flex;
+  flex-direction: column;
+  
 }
 .centrage_logo
 {
   margin: auto;
-  margin-top: 200px;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .centrage_searchbar
 {
-  margin-left: 740px;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.saisie_texte {
+	width:300px;
+	height:10px; 
+}
+
+.bouton  {
+	justify-content: space-between;
+}
+
+ul#footer_bas li {
+	display:inline;
+}
+
