@@ -2,11 +2,17 @@ body{
 	display: flex;
 	flex-direction: column;
 }
-	
+
 	ul {
   list-style-type: none;
 }
+li {
+	padding:12px 12px 0px 0px;
+}
 
+a:visited {
+	color :rgb(100,100,100);
+}
 
 #connexion_bouton {
 	color: #fff;
@@ -21,7 +27,8 @@ body{
     padding-left: 5px;
     border-radius: 2px;
     height: 30px;
-    width :94px;
+    width :80px;
+    margin-top: 12px;
 
 }
 .centrage
@@ -31,6 +38,8 @@ body{
   
 }
 .centrage_logo{
+	padding-top:125px; 
+	margin-bottom:30px; 
   margin: auto;
   padding-top: 109px;
 
@@ -41,6 +50,7 @@ body{
   margin: auto;
   justify-content: center;
   flex-direction: column;
+  height:118px;
 }
 
 .saisie_texte {
@@ -48,6 +58,9 @@ body{
 	height:10px; 
 }
 
+.bouton {
+	padding-top: 10px;
+}
 .bouton1  {
 	justify-content: space-around;
 	height: 36px;
@@ -85,9 +98,10 @@ body{
 
 .searchbar {
 	    background-color: #fff;
-    height: 44px;
-     width: 584px;
+    height: 36px;
+     width: 504px;
     margin: -1px 0px 1px;
+    padding: 6px 9px 0px 16px;
     color: #222;
     vertical-align: top;
     border-radius: 2px;
@@ -115,9 +129,20 @@ ul#footer_haut li{
 
 }
 ul#footer_bas li {
-	display:inline-block;
+	display:inline-block;	
+	margin-bottom: 0px;
+  margin-top:0px;
+  padding-left: 0px;
 }
 
+#footer_haut {
+	border-bottom-color: rgba(220,220,220,0.8);
+	border-bottom  : solid;
+	border-width: 1px;
+	margin-bottom: 0px;
+  margin-top:0px; 
+  padding-left: 0px;
+}
 
 #droite {
 	padding-right: 5px;	
@@ -137,6 +162,8 @@ ul#footer_bas li {
     line-height: 40px;
     min-width: 980px;
     font-family: arial,sans-serif;
+  width: 1413px;
+  height: 82px; left:0px;
 }
 
 #header {
