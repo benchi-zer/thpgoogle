@@ -42,8 +42,8 @@ ul#footer_bas li {
 }
 
 
-.droite {
-	float: right;	
+#droite {
+	padding-right: 5px;	
 }
 
 #footer {
