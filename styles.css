@@ -1,14 +1,17 @@
-.centrage
+body{
+	display: flex;
+	flex-direction: column;
+}
+	.centrage
 {
   display: flex;
   flex-direction: column;
   
 }
-.centrage_logo
-{
+.centrage_logo{
   margin: auto;
-  justify-content: center;
-  flex-direction: column;
+  padding-top: 109px;
+  
 }
 
 .centrage_searchbar
@@ -27,12 +30,10 @@
 	justify-content: space-between;
 }
 
-ul#header li{
-	display: inline;
-	}
 
-.header_droit{
-	;
+ul.header_droit li{
+	display: inline;
+	float: right;
 }
 ul#footer_haut li{
 	display: inline;
