@@ -68,9 +68,10 @@ body{
     color: #222;
     vertical-align: top;
     border-radius: 2px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    font-size: small;
     overflow: hidden;
+
 }
 
 
@@ -80,10 +81,14 @@ ul.header_droit li{
 }
 ul#footer_haut li{
 	display: inline;
+	margin-bottom: 0px;
+	margin-top:0px;
+	color: #777;
+	font-size:15px;
 
 }
 ul#footer_bas li {
-	display:inline;
+	display:inline-block;
 }
 
 
@@ -94,9 +99,9 @@ ul#footer_bas li {
 #footer {
  bottom: 0;
  position: absolute;
- margin-left: 30px;
+ margin-left: 0px;
     text-align: left;
-        color: rgba(0,0,0,.54);
+        color: #666;
     padding-left: 27px;
         font-size: small;
         background: #f2f2f2;
@@ -104,5 +109,15 @@ ul#footer_bas li {
     line-height: 40px;
     min-width: 980px;
     font-family: arial,sans-serif;
-    font-weight: bold;
+}
+
+#header {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+	    color: rgba(0,0,0,0.87);
+    line-height: 24px;
+    font-family: arial, serif;
+    font-size: 13px;
+
 }
